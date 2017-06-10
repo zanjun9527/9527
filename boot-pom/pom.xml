@@ -11,10 +11,22 @@
     <version>1.4.3.RELEASE</version>
   </parent>
   
+  <properties> 
+  		<druid.version>1.0.9</druid.version>
+  		<mysql.version>5.1.32</mysql.version>
+  		<mybatis.version>3.2.8</mybatis.version>
+		<mybatis.spring.version>1.2.2</mybatis.spring.version>
+  </properties>
+  
  <dependencies>
 	<dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+      
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId> spring-boot-starter-jdbc</artifactId>
     </dependency>
       
     <dependency>  
