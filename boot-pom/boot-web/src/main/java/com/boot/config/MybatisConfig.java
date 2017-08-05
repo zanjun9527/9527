@@ -48,6 +48,7 @@ public class MybatisConfig  implements TransactionManagementConfigurer {
 	            e.printStackTrace();
 	            throw new RuntimeException(e);
 	        }
+	        
 	    }
 
 	    @Bean

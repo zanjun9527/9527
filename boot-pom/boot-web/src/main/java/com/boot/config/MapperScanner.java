@@ -12,7 +12,8 @@ public class MapperScanner {
 	    public MapperScannerConfigurer mapperScannerConfigurer() {
 	        MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
 	        mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
-	        mapperScannerConfigurer.setBasePackage("com.boot.dao.mapper");
+	        mapperScannerConfigurer.setBasePackage("com.boot.dao.mapper,com.boot.dao.talents.mapper");	       
+//	        mapperScannerConfigurer.setBasePackage("com.boot.dao.mapper");	       
 	        return mapperScannerConfigurer;
 	    }	
 }

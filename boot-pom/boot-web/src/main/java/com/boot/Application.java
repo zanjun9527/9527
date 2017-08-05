@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"com.boot"})
+@ComponentScan(basePackages={"com.boot.dao.dmo","com.boot.dao.mapper","com.boot.config","com.boot.controller"})
 @ImportResource({"classpath:springmvc.xml"})
 public class Application extends SpringBootServletInitializer {
 	
